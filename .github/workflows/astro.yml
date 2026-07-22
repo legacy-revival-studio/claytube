@@ -80,7 +80,7 @@ jobs:
   deploy:
     environment:
       name: github-pages
-      url: https://labs.etern.co.kr/claytube/
+      url: https://www.palgle.com/claytube/
     #      url: ${{ steps.deployment.outputs.page_url }}
     needs: build
     runs-on: ubuntu-latest
